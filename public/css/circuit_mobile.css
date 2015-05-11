@@ -3,6 +3,9 @@
         display: none;
         /*opacity: 0;*/
     }
+    .footer_details.connect{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -17,4 +20,10 @@
         margin-left: -20px !important;
     }
     
+    .footer_details.connect{
+        display: block;
+    }
+    .header.connect{
+        display: none;
+    }
 }
