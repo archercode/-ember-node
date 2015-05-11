@@ -469,5 +469,8 @@ a.text_blue:hover{
     padding-top: 8px;
 }
 
-
+.image_logo.main{
+    margin-top: -7px;
+    margin-left: 20px;
+}
 

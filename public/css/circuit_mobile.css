@@ -13,4 +13,8 @@
     .shake.logo{
         /*display:none;*/
     }
+    .image_logo.main{
+        margin-left: -20px !important;
+    }
+    
 }
