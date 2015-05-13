@@ -335,10 +335,10 @@ App.CheckoutModalController = Ember.ObjectController.extend({
   
 
 
-  selectedVal: 'Bank',
+  selectedVal: 'Ship',
 
   radioContent: [
-        {label: 'Bank', value: 'Bank'},
+        {label: 'Shiping', value: 'Ship'},
         {label: 'Meetup', value: 'Meet'},
         //{label: 'PayPal', value: 'paypal'},
         //{label: 'Credit Card', value: 'cc'},
@@ -349,7 +349,7 @@ App.CheckoutModalController = Ember.ObjectController.extend({
   optionPayP: false,    
 
   onChangeRadio : function () {
-      if (this.selectedVal === 'Bank'){
+      if (this.selectedVal === 'Ship'){
         this.set('optionBank', true);
         this.set('optionMeet', false);
       }
