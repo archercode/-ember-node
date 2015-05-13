@@ -51,17 +51,17 @@
     <div class="row header_items" >
     
     <ul class=" li_no_style" >
-        <li class="col-lg-3 col-md-3 col-xs-3 col-sm-7 compact shake shake-slow logo">
+        <li class="col-lg-3 col-md-3 col-xs-3 col-sm-7 compact shake shake-slow logo element_center">
             {{#link-to "products" class="" }}
                 <img src="images/ic_logo.png"  class="image_logo main" alt="logo" height="50" width="140" {{action 'submit' target="view"}}>{{/link-to}}
             
         </li>
-        <li class="col-lg-4 col-md-4 compact">
+        <li class="col-lg-4 col-md-4 compact element_center">
             <div class="" id="">
             {{product-header-filters-top product=this tagName='div' classNames='filters'}}
             </div>
         </li>
-        <li class="col-lg-3 col-md-3  col-xs-6  col-sm-3 compact">
+        <li class="col-lg-3 col-md-3  col-xs-6  col-sm-3 compact ">
             <div>
             <div {{action 'submit' target="view"}}>
                 <form {{action "search" on="submit"}} class=" ">
@@ -69,11 +69,13 @@
                 </form>
             </div>
         </li>
-        <li class="col-lg-2 col-md-2 col-xs-1 col-sm-2 compact">
+        <li class="col-lg-2 col-md-2 col-xs-1 col-sm-2 compact ">
           <div class="cart ">
             <div {{action 'showModal' 'checkout-modal' model}}><img src="images/ic_cart.png"  class="image_logo cart" alt="logo" height="40" width="40">
              {{#if itemCounter}} 
-            <div class="cart_itemCount">{{totalItems}}</div>
+             <div>
+            <span class="cart_itemCount badge badge-warning">{{totalItems}}</span>
+            </div>
               {{/if}}
             </div>
           </div>
@@ -81,8 +83,37 @@
             
     </ul>
     </div> 
+  
+
+
   </div>
   
+
+<div class="floating">
+
+  
+    
+  <div class=" details "> 
+
+    <div class="row" >
+      <div class="col-md-12 text_blue text-center">Contact Us!</div> 
+    </div>
+    <div class="row" >
+      <div class="col-md-12 ">info@circuit.rocks</div> 
+    </div>
+    <div class="row" >
+      <div class="col-md-12 ">0998 469 2148</div> 
+    </div>
+    <div class="row" >
+     <div class="col-md-12 ">0905 575 3988</div> 
+    </div>
+
+    </div>
+  </div>
+
+  <button class="contact_us">Contact Numbers: 
+  </button>
+</div>
  
 <!-- Section 2-->
 <section id="home_header" >
@@ -314,13 +345,13 @@
           <div class="items_ordered">
             {{#each item in model itemController="application" }}
               <div class="row table checkout-modal" {{bind-attr class=""}}>
-                <div class="col-md-7">
+                <div class="col-md-6">
                 {{item.name}}:
                 </div>
                 <div class="col-md-2"> {{item.amount}}</div> 
-                <div class="col-md-1">x  </div>
+                <div class="col-md-1">&middot;</div>
                 <div class="col-md-1">{{item.quantity}}</div>
-                <div class="col-md-1"> 
+                <div class="col-md-2 pull-right"> 
                 <button type="button" class="close" aria-label="Close" {{action 'deleteItem'}}><span aria-hidden="true">&times;</span></button>
                 </div> 
                 </div>
@@ -330,12 +361,12 @@
           <div class="total table">
 
             <div class="row"> 
-                <div class="col-md-9 center">Total items: </div> 
-                <div class="col-md-3 text-center">{{totalItems}}</div>
+                <div class="col-md-10 center">Total items: </div> 
+                <div class="col-md-2 text_right">{{totalItems}}</div>
             </div>
             <div class="row">
-                <div class="col-md-9"> Total amount: </div> 
-                <div class="col-md-3 text-center">{{totalAmount}}</div>
+                <div class="col-md-10"> Total amount: </div> 
+                <div class="col-md-2 text_right">{{totalAmount}}</div>
             </div>
           </div>
           </div>
@@ -377,7 +408,7 @@
 <script type="text/x-handlebars" data-template-name="components/v-card">
   <ul class="vcard">
     <li><span class="fn">{{fn}}</span> <span class="lastName">{{lastName}}</span></li> 
-    <li><span class="street-address">{{street-addressOne}}</span>, <span class="street-address">{{street-addressTwo}}</span>, <span class="locality">{{locality}}</span>, <span class="state">{{usState}}</span> <span class="zip">{{zip}}</span></li> 
+    <li><span class="street-address">{{street-addressOne}}</span> <span class="street-address">{{street-addressTwo}}</span> <span class="locality">{{locality}}</span> <span class="state">{{usState}}</span> <span class="zip">{{zip}}</span></li> 
     <li> <span class="email">{{email}}</span> </li>
     <li><span class="phone">{{phone}}</span></li> 
     
