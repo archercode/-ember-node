@@ -268,16 +268,6 @@ var data =
       "type"  : 'boards',
       "image" : 'images/products/DFR0229.jpg'
     },
-    /*
-    { 
-      "title":'Sharp GP2Y0A21 Distance Sensor',
-      "model": 'SEN0014',
-      "price": 2400,
-      "description": "URM37 V4.0 Ultrasonic Sensor comes with a temperature correction which is a very unique feature in its class. URM37 V4.0 (last version) has already been a very good realization of ultrasonic switch and serial (TTL and RS232 level optional), pulse output function, the module can also control a servo rotation to realize a spatial ultrasound scanner. On this basis we have to upgrade the function",
-      "type"  : 'sensors',
-      "image" : 'images/products/SEN0014'
-    },
-    */
     {
       "title":'DFPlayer ­ A Mini MP3 Player',
       "price": 420,
