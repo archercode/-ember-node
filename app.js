@@ -159,11 +159,11 @@ var data =
     
     {
       "title":'Arduino Mega2560 Rev3',
-      "model": 'DFR0191',
+      "model": 'DFR0108',
       "price": 2400,
       "description": "The Arduino Mega 2560 is a microcontroller board based on the ATmega2560 (datasheet). It has 54 digital input/output pins (of which 14 can be used as PWM outputs), 16 analog inputs, 4 UARTs (hardware serial ports), a 16 MHz crystal oscillator, a USB connection, a power jack, an ICSP header, and a reset button. It contains everything needed to support the microcontroller; simply connect it to a computer with a USB cable or power it with a AC-to-DC adapter or battery to get started. The Mega is compatible with most shields designed for the Arduino Uno, Duemilanove or Diecimila.",
       "type"  : 'boards',
-      "image" : 'images/products/DFR0191.jpg'
+      "image" : 'images/products/DFR0108.png'
     },
     
     {
@@ -313,7 +313,7 @@ var data =
       "price": 4000,
       "description": "The Arduino Yún is a newcomer microcontroller board in the Arduino boards family. It is a microcontroller board based on the ATmega32u4 (datasheet) and the Atheros AR9331. The Atheros processor supports a Linux distribution based on OpenWRT named Linino. The board has built-in Ethernet and WiFi support, a USB-A port, micro-SD card slot, 20 digital input/output pins (of which 7 can be used as PWM outputs and 12 as analog inputs), a 16 MHz crystal oscillator, a micro USB connection, an ICSP header, and 3 reset buttons.",
       "type"  : 'boards',
-      "image" : 'images/products/DFR0297.jpg'
+      "image" : 'images/products/DFR0297.png'
     },
     
     {
