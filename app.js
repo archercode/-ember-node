@@ -22,16 +22,24 @@ var data =
       "type"  : 'sensors',
       "image" : 'images/products/SEN0001.jpg'
     },
-    /*
+    
     {
       "title": 'Sharp GP2Y0A21 Distance Sensor (10-80cm)',
       "price": 620,
       "model": 'SEN0014',
       "description": "The Sharp distance sensors are a popular choice for many projects that require accurate distance measurements. This IR sensor is more economical than sonar rangefinders, yet it provides much better performance than other IR alternatives. Interfacing to most microcontrollers is straightforward: the single analog output can be connected to an analog-to-digital converter for taking distance measurements, or the output can be connected to a comparator for threshold detection. The detection range of this version is approximately 10 cm to 80 cm (4' to 32'); a plot of distance versus output voltage is shown below.",
       "type"  : 'sensors',
-      "image" : 'images/products/SEN0014.jpg'
+      "image" : 'images/products/SEN0014.png'
     },
-    */
+    
+    {
+      "title":'LED Current Meter 10A',
+      "model": 'DFR0130',
+      "price": 400,
+      "description": "URM37 V4.0 Ultrasonic Sensor comes with a temperature correction which is a very unique feature in its class. URM37 V4.0 (last version) has already been a very good realization of ultrasonic switch and serial (TTL and RS232 level optional), pulse output function, the module can also control a servo rotation to realize a spatial ultrasound scanner. On this basis we have to upgrade the function",
+      "type"  : 'robotics',
+      "image" : 'images/products/DFR0130.jpg'
+    },
     {
       "title": 'UV Sensor',
       "price": 460,
@@ -88,16 +96,7 @@ var data =
       "type": 'robotics',
       "image": "images/products/SER0035.jpg",
     },
-    /*
-    {
-      "title": 'Tilt/Pan Kit (5kg)',
-      "price": 1000,
-      'model': 'FIT0045',
-      "description": 'The bow drill is an ancient tool. While it was usually used to make fire, it was also used for primitive woodworking and dentistry.',
-      "type": 'robotics',
-      "image": 'images/products/FIT0045.jpg',
-    },
-    */
+    
     {
       "title": 'Capacitive Touch Sensor',
       "price": 300,
@@ -219,6 +218,14 @@ var data =
     },
     */
     {
+      "title": 'Tilt/Pan Kit (5kg)',
+      "price": 1000,
+      'model': 'FIT0045',
+      "description": 'This DF05BB Pan and Tilt assembly for horizontal surface mount. Made using two DFRobot servo brackets. Perfect for your small remote piloted robot! Includes hardware and two DF05 ball bearing servos.',
+      "type": 'robotics',
+      "image": 'images/products/FIT0045.png',
+    },
+    {
       "title":'Analog LPG Gas Sensor(MQ6)',
       "model": 'SEN0131',
       "price": 400,
@@ -250,16 +257,8 @@ var data =
       "type"  : 'boards',
       "image" : 'images/products/TEL0051.jpg'
     },
-    /*
-    {
-      "title":'LED Current Meter 10A',
-      "model": 'DFR0244­',
-      "price": 400,
-      "description": "URM37 V4.0 Ultrasonic Sensor comes with a temperature correction which is a very unique feature in its class. URM37 V4.0 (last version) has already been a very good realization of ultrasonic switch and serial (TTL and RS232 level optional), pulse output function, the module can also control a servo rotation to realize a spatial ultrasound scanner. On this basis we have to upgrade the function",
-      "type"  : 'robotics',
-      "image" : 'images/products/DFR0244­.jpg'
-    },
-    */
+    
+    
     {
       "title":'MicroSD card module',
       "model": 'DFR0229',
